@@ -9,11 +9,9 @@ console.log('API up and running');
 });
 
 //routes
-app.get('/api', () => {
+app.get('/api', (req, res) => {
 
-    console.log('API up and running');
-
-
+    res.send('API up and running');
 });
 
 

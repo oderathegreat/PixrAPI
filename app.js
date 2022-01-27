@@ -14,5 +14,10 @@ app.get('/api', (req, res) => {
     res.send('API up and running');
 });
 
+//send request
+app.post('/api/users', (req, res) =>{
+
+    
+});
 
 
